@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 5rem;
+  align-items: flex-end;
+}
+
+h2 {
+  align-items: flex-end;
+}
+
+
+img {
+  width: 35%;
+
+}
+
+body {
+  /*background-image: url("afriquefond.jpg");*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.haut_page {
+  height: 220px;
+  background: #bd8d64;
+  color: #ffff;
+
+}
+
+nav {
+  min-height: 10vh;
+  display: flex;
+}
+
+#imagecont {
+  width: 30%;
+  float: left;
+}
+
+#titre {
+  align-items: center;
+  display: flex;
+
+
+
+}
+
+a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+
+
+.bas_page {
+  height: 200px;
+  background: #bd8d64;
+  color: #ffff;
+
+}
+
+.nav_bas{
+  display: flex;
+  
+}
