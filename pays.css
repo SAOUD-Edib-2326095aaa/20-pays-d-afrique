@@ -244,3 +244,31 @@ footer {
   
 }
 
+body.dark-theme {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.haut_page.dark-theme {
+  background-color: #572b57; /* Nouvelle couleur du header en mode sombre */
+}
+
+footer.dark-theme {
+  background-color: #572b57; /* Nouvelle couleur du footer en mode sombre */
+}
+
+.carré.dark-theme {
+  background-color: #572b57; /* Nouvelle couleur des carrés en mode sombre */
+}
+
+.toggle-theme a {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+}
+
+.toggle-theme a:hover {
+  background-color: #fff;
+  color: #000;
+}

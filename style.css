@@ -165,11 +165,98 @@ li.active a{
   padding: 10px 20px;
 }
 
-.btn{
-  transistion: 0.6s ease;
-}
 
 .btn:hover{
   background-color: #fff;
   color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d2aa87;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Ajustement pour empiler les éléments verticalement */
+  min-height: 100vh; /* Utiliser min-height pour couvrir au moins la hauteur de la fenêtre */
+}
+
+.haut_page {
+  background-color: #bd8d64;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: auto; /* Centrer le formulaire horizontalement */
+  margin-top: 20px; /* Ajout d'un espace entre le haut_page et le formulaire */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #bd8d64;
+  color: white;
+  margin-top: auto;
+}
+
+.titre_footer{
+  font-size: 1.6rem;
+  font-family: 'Tinos', sans-serif;
+}
+
+.nom {
+  font-size: 1.4rem;
+  font-family: 'Tinos', sans-serif;
+}
+
+.ref {
+  font-size: 1rem;
+  font-family: 'Tinos', sans-serif;
+}
+
+body.dark-theme {
+  background-color: #1a1a1a;
+  color: #ffffff;
 }
