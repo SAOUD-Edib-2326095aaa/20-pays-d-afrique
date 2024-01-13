@@ -1,8 +1,7 @@
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 body{
@@ -138,8 +137,15 @@ li a, .dropbtn {
     border: 1px solid transparent;
     margin: 10px;
     font-weight: 500;
-    transition: 0.6s ease;
+    transition: background-color 0.6s ease;
+    background-color: transparent;
 }
+
+li a:hover, .dropbtn:hover {
+    background-color: white;
+    border: 1px solid #fff;
+}
+
 
 li a:hover, .dropdown:hover .dropbtn {
     background-color: #fff;
@@ -183,8 +189,8 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: column; /* Ajustement pour empiler les éléments verticalement */
-  min-height: 100vh; /* Utiliser min-height pour couvrir au moins la hauteur de la fenêtre */
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .haut_page {
@@ -205,13 +211,14 @@ form {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;
-  margin: auto; /* Centrer le formulaire horizontalement */
-  margin-top: 20px; /* Ajout d'un espace entre le haut_page et le formulaire */
+  margin: auto;
+  margin-top: 20px;
 }
 
 label {
   display: block;
   margin-bottom: 8px;
+  color: gray;
 }
 
 input,
